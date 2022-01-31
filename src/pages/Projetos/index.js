@@ -13,6 +13,7 @@ import {
   Tag,
 } from "../../styles/general";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default function Projetos() {
   return (
@@ -43,7 +44,7 @@ export default function Projetos() {
             </TagGroup>
 
             <div className="CardGroup">
-              <div className="CardMax">
+              <Link to="/gallery/arquivoonline" className="CardMax">
                 <div className="CardHead">
                   <img src={ArquivoOnline} alt="Arquivo Online" />
                 </div>
@@ -55,9 +56,9 @@ export default function Projetos() {
                     acesso e um blog interno.
                   </p>
                 </div>
-              </div>
+              </Link>
 
-              <div className="CardMax">
+              <Link to="/gallery/performar" className="CardMax">
                 <div className="CardHead">
                   <img src={Performar} alt="Performar" />
                 </div>
@@ -68,9 +69,9 @@ export default function Projetos() {
                     como DRE, Planilha de Resultados e muito mais.
                   </p>
                 </div>
-              </div>
+              </Link>
 
-              <div className="CardMax">
+              <Link to="/gallery/medcash" className="CardMax">
                 <div className="CardHead">
                   <img src={MedCash} alt="Med-Cash" />
                 </div>
@@ -82,7 +83,7 @@ export default function Projetos() {
                     procedimento realizado.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <p className="CardDesculpas">
