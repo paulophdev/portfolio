@@ -8,15 +8,15 @@ export const Container = styled.header`
   height: 70px;
   padding: 0 30px;
 
-  @media (max-width: 320px) {
+  @media (max-width: 350px) {
     div img {
       width: 40px !important;
     }
   }
 
-  @media (max-width: 370px) {
+  @media (max-width: 380px) {
     div img {
-      width: 80px !important;
+      width: 95px !important;
     }
   }
 
