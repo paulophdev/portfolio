@@ -20,6 +20,12 @@ export const Container = styled.header`
     }
   }
 
+  @media (max-width: 430px) {
+    div img {
+      width: 100px;
+    }
+  }
+
   @media (max-width: 400px) {
     div img {
       width: 110px;
@@ -72,9 +78,15 @@ export const ContentNav = styled.nav`
     }
   }
 
+  @media (max-width: 430px) {
+    a {
+      font-size: 12px;
+    }
+  }
+
   @media (max-width: 600px) {
     a {
-      font-size: 14px;
+      font-size: 13px;
     }
   }
 `;
