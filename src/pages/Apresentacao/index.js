@@ -33,20 +33,19 @@ export default function Apresentacao() {
             <p className="paragraph-p">
               Olá, sou Paulo Henrique!
               <br />
-              Trabalho com programação um pouco mais do que três anos, durante
-              esse período desenvolvi e participei do desenvolvimento de dezenas
-              de projetos dos mais amplos nichos.
-              <br />
-              Nos últimos anos venho acomulando experiência em tecnologia,
-              desenvolvimento de software, trabalho em equipe e muito mais.
+              Trabalho com programação há pouco mais de três anos e durante esse
+              período, desenvolvi e participei do desenvolvimento de dezenas de
+              projetos de diversos nichos. Nos últimos anos, venho adquirindo
+              experiências em tecnologia, desenvolvimento de software, bem como
+              trabalho em equipe.
               <br />
               Uma das minhas melhores habilidades e a que mais me orgulho é a
-              capacidade de lhe dar com os clientes e conseguir entender suas
+              capacidade de lidar com os clientes e conseguir entender suas
               necessidades, mesmo quando o projeto ainda é uma ideia na cabeça
               do cliente.
               <br />
               Ainda há muito para saber sobre mim, mas antes de entrar em
-              contato comigo dê uma olhada nos{" "}
+              contato comigo, dê uma olhada em alguns dos
               <Link to="/projetos" className="color-a-ajust">
                 meus projetos.
               </Link>
