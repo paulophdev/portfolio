@@ -1,0 +1,15 @@
+.ListContact {
+  list-style: none;
+}
+
+.ListContact li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.ListContact li a {
+  color: #fff;
+  text-decoration: none;
+}

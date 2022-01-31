@@ -1,5 +1,15 @@
+import GlobalStyle from "./styles/global";
+
+import Roteamento from "./routes";
+
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <GlobalStyle />
+
+      <Roteamento />
+    </>
+  );
 }
 
 export default App;
