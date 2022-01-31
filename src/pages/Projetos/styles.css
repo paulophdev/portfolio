@@ -71,10 +71,6 @@
 }
 
 @media (max-width: 520px) {
-  .CardMax {
-    height: 150px;
-  }
-
   .CardBody h2 {
     font-size: 16px;
   }
