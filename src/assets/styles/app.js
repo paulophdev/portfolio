@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  height: 100vh;
 
   grid-template-columns: 1fr 4fr;
 
@@ -11,3 +10,5 @@ export const Container = styled.div`
     grid-template-rows: 20vh 80vh;
   }
 `;
+
+export const Content = styled.div``;

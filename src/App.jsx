@@ -6,19 +6,21 @@ import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
-import { Container } from "./assets/styles/app";
+import { Container, Content } from "./assets/styles/app";
 
 function App() {
   return (
     <Container>
       <Aside />
 
-      {/* <Home /> */}
-      {/* <About /> */}
-      {/* <Service /> */}
-      {/* <Experience /> */}
-      {/* <Portfolio /> */}
-      <Contact />
+      <Content>
+        <Home />
+        <About />
+        <Service />
+        <Experience />
+        <Portfolio />
+        <Contact />
+      </Content>
     </Container>
   );
 }

@@ -2,7 +2,7 @@ import { Container } from "./styles";
 
 export default function index() {
   return (
-    <Container>
+    <Container id="about">
       <h1>Sobre mim</h1>
     </Container>
   );

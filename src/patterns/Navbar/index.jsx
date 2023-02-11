@@ -14,12 +14,24 @@ export default function index() {
         <span className="close-menu">
           <AiOutlineClose size={50} onClick={() => setToggle(false)} />
         </span>
-        <div className="active">Principal</div>
-        <div>Sobre Mim</div>
-        <div>O que Faço</div>
-        <div>Experiência</div>
-        <div>Portifólio</div>
-        <div>Contato</div>
+        <div className="active">
+          <a href="#home">Principal</a>
+        </div>
+        <div>
+          <a href="#about">Sobre Mim</a>
+        </div>
+        <div>
+          <a href="#about">O que Faço</a>
+        </div>
+        <div>
+          <a href="#experience">Experiência</a>
+        </div>
+        <div>
+          <a href="#portfolio">Portifólio</a>
+        </div>
+        <div>
+          <a href="#contact">Contato</a>
+        </div>
       </div>
     </Container>
   );
