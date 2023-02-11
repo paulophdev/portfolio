@@ -15,22 +15,34 @@ export default function index() {
           <AiOutlineClose size={50} onClick={() => setToggle(false)} />
         </span>
         <div className="active">
-          <a href="#home">Principal</a>
+          <a href="#home" onClick={() => setToggle(false)}>
+            Principal
+          </a>
         </div>
         <div>
-          <a href="#about">Sobre Mim</a>
+          <a href="#about" onClick={() => setToggle(false)}>
+            Sobre Mim
+          </a>
         </div>
         <div>
-          <a href="#about">O que Faço</a>
+          <a href="#service" onClick={() => setToggle(false)}>
+            O que Faço
+          </a>
         </div>
         <div>
-          <a href="#experience">Experiência</a>
+          <a href="#experience" onClick={() => setToggle(false)}>
+            Experiência
+          </a>
         </div>
         <div>
-          <a href="#portfolio">Portifólio</a>
+          <a href="#portfolio" onClick={() => setToggle(false)}>
+            Portifólio
+          </a>
         </div>
         <div>
-          <a href="#contact">Contato</a>
+          <a href="#contact" onClick={() => setToggle(false)}>
+            Contato
+          </a>
         </div>
       </div>
     </Container>
