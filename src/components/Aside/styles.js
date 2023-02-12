@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background: ${(props) => props.theme.colors.backgroundPrimary};
+  z-index: 99;
   padding: 20px 0;
   height: 100vh;
   display: flex;
@@ -15,5 +16,9 @@ export const Container = styled.div`
     flex-direction: row;
     padding: 20px;
     height: auto;
+
+    position: fixed;
+    left: 0;
+    right: 0;
   }
 `;

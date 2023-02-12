@@ -9,7 +9,7 @@ export const Container = styled.div`
     cursor: pointer;
   }
 
-  div.menu-nav div.active {
+  div.menu-nav div a.active {
     color: ${(props) => props.theme.colors.textSecondary};
   }
 

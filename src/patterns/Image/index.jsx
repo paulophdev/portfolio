@@ -1,5 +1,6 @@
 import Perfil from "../../assets/img/me.jpg";
 import { Container } from "./styles";
+import Contacts from "../../../contacts";
 
 export default function index() {
   return (
@@ -13,7 +14,7 @@ export default function index() {
           />
         </a>
       </div>
-      <h3>Paulo H N Matos</h3>
+      <h3>{Contacts.fullName}</h3>
     </Container>
   );
 }
