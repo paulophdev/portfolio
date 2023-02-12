@@ -4,6 +4,7 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 import Contacts from "../../../contacts";
 
 export default function index() {
+  // it should return an age
   function calculateAge(birth) {
     const today = new Date();
     return Math.floor(
@@ -11,6 +12,14 @@ export default function index() {
         Math.abs(birth.getTime() - today.getTime()) / (1000 * 3600 * 24)
       ) / 365.25
     );
+  }
+
+  // it should return how many years as a programmer
+  function calculateDate(date) {
+    const first = new Date(date);
+    const last = new Date("12-02-2023");
+
+    return last.getFullYear() - first.getFullYear();
   }
 
   return (
@@ -57,20 +66,20 @@ export default function index() {
       </Content>
       <ContentBody>
         <div>
-          <p>10+</p>
-          <span>Years Experiance</span>
+          <p>{calculateDate(Contacts.startYear)}+</p>
+          <span>Anos de Experiência</span>
         </div>
         <div>
-          <p>250+</p>
-          <span>Happy Clients</span>
+          <p>{Contacts.countSites}+</p>
+          <span>Total de Sites</span>
         </div>
         <div>
-          <p>650+</p>
-          <span>Projects Done</span>
+          <p>{Contacts.countSystems}+</p>
+          <span>Total de Sistemas</span>
         </div>
         <div>
-          <p>38</p>
-          <span>Get Awards</span>
+          <p>{Contacts.countCustomers}+</p>
+          <span>Clientes Atendidos</span>
         </div>
       </ContentBody>
     </Container>
