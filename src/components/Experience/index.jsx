@@ -17,19 +17,19 @@ const skills = [
   },
   {
     name: "JavaScript",
-    percentage: "50",
-  },
-  {
-    name: "Angular Js",
-    percentage: "20",
-  },
-  {
-    name: "HTML/CSS",
     percentage: "80",
   },
   {
+    name: "SQL",
+    percentage: "75",
+  },
+  {
+    name: "HTML/CSS",
+    percentage: "90",
+  },
+  {
     name: "React JS",
-    percentage: "58",
+    percentage: "75",
   },
   {
     name: "Bootstrap",
@@ -47,39 +47,35 @@ export default function index() {
 
       <Content>
         <CardExt>
-          <span>2000 ~ 2004</span>
-          <h2>Computer Science</h2>
-          <p className="ext-sub">International University</p>
+          <span>02/2018 ~ 05/2018</span>
+          <h2>Curso de Web Developer</h2>
+          <p className="ext-sub">Prof: Deivite Popo (engenheiro de software)</p>
           <p>
-            Lisque persius interesset his et, in quot quidam persequeris vim, ad
-            mea essent possim iriure.
+            Curso focado em preparar o programador para o mercado de trabalho.
           </p>
         </CardExt>
         <CardExt>
-          <span>2000 ~ 2004</span>
-          <h2>Computer Science</h2>
-          <p className="ext-sub">International University</p>
+          <span>05/2018 ~ 12/2020</span>
+          <h2>1° Trabalho na área</h2>
+          <p className="ext-sub">Programador Full Stack</p>
+          <p>Desenvolver softwares para atender as demandas dos clientes.</p>
+        </CardExt>
+        <CardExt>
+          <span>01/2021 ~ atualmente</span>
+          <h2>Freelancer</h2>
+          <p className="ext-sub">Programador Full Stack</p>
           <p>
-            Lisque persius interesset his et, in quot quidam persequeris vim, ad
-            mea essent possim iriure.
+            Sempre focado em melhorar minhas habilidades para entregar sempre o
+            melhor para meus clientes.
           </p>
         </CardExt>
         <CardExt>
-          <span>2000 ~ 2004</span>
-          <h2>Computer Science</h2>
-          <p className="ext-sub">International University</p>
+          <span>07/2021 ~ atualmente</span>
+          <h2>Faculdade</h2>
+          <p className="ext-sub">Análise e desenvolvimento de sistemas</p>
           <p>
-            Lisque persius interesset his et, in quot quidam persequeris vim, ad
-            mea essent possim iriure.
-          </p>
-        </CardExt>
-        <CardExt>
-          <span>2000 ~ 2004</span>
-          <h2>Computer Science</h2>
-          <p className="ext-sub">International University</p>
-          <p>
-            Lisque persius interesset his et, in quot quidam persequeris vim, ad
-            mea essent possim iriure.
+            Curso de nível superior para ampliar as minhas capacidades e
+            melhorar meu perfil de desenvolvedor.
           </p>
         </CardExt>
       </Content>
