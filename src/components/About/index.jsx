@@ -36,7 +36,7 @@ export default function index() {
             web
           </p>
           <p>
-            trabalho com Desenvolvimento Web a um pouco mais de quatro anos, já
+            Trabalho com Desenvolvimento Web a um pouco mais de quatro anos, já
             desenvolvi e participei do desenvolvimento de diversos sites e
             sistemas, sozinho e em equipe. Durante boa parte do meu tempo como
             programador, trabalhei para uma empresa que desenvolve sistemas sob
