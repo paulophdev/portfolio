@@ -13,10 +13,20 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import Contacts from "../../../contacts";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function index() {
+  const notify = () =>
+    toast.success("Conteúdo Copiado!", {
+      position: "top-right",
+      autoClose: 1000,
+    });
+
   return (
     <Container id="contact">
+      <ToastContainer />
       <Title>
         <h1>Contato</h1>
         <p>Entre em Contato</p>
@@ -76,24 +86,30 @@ export default function index() {
             <AiOutlineDownload />
           </div>
         </Card>
-        <Card>
-          <div>
-            <AiOutlineMail />
-          </div>
-          <div>{Contacts.email}</div>
-          <div>
-            <AiOutlineCopy />
-          </div>
-        </Card>
-        <Card>
-          <div>
-            <AiOutlineWhatsApp />
-          </div>
-          <div>{Contacts.phone}</div>
-          <div>
-            <AiOutlineCopy />
-          </div>
-        </Card>
+        <CopyToClipboard text={Contacts.email}>
+          <Card title="Clique para copiar!" onClick={() => notify()}>
+            <div>
+              <AiOutlineMail />
+            </div>
+
+            <div>{Contacts.email}</div>
+
+            <div>
+              <AiOutlineCopy />
+            </div>
+          </Card>
+        </CopyToClipboard>
+        <CopyToClipboard text={Contacts.phone}>
+          <Card title="Clique para copiar!" onClick={() => notify()}>
+            <div>
+              <AiOutlineWhatsApp />
+            </div>
+            <div>{Contacts.phone}</div>
+            <div>
+              <AiOutlineCopy />
+            </div>
+          </Card>
+        </CopyToClipboard>
       </Content>
     </Container>
   );
