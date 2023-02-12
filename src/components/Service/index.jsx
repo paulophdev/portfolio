@@ -1,7 +1,7 @@
 import { Title } from "../../assets/styles/app";
 import { Container, Content } from "./styles";
 
-import { BsPalette, BsDisplay, BsBrush, BsCart3 } from "react-icons/bs";
+import { BsBarChartLine, BsDisplay, BsBrush, BsCart3 } from "react-icons/bs";
 
 export default function index() {
   return (
@@ -15,14 +15,14 @@ export default function index() {
         <div className="card">
           <div className="card-icon">
             <div>
-              <BsPalette size={25} />
+              <BsBarChartLine size={25} />
             </div>
           </div>
           <div className="card-body">
-            <h1>Graphic Design</h1>
+            <h1>Relatórios</h1>
             <p>
-              Lisque persius interesset his et, in quot quidam persequeris vim,
-              ad mea essent possim iriure.
+              Entrego relatórios como DRE, Planilha de Resultados e Movimento de
+              Caixa, de acordo com as informações de sua empresa.
             </p>
           </div>
         </div>
@@ -35,8 +35,8 @@ export default function index() {
           <div className="card-body">
             <h1>Web Design</h1>
             <p>
-              Lisque persius interesset his et, in quot quidam persequeris vim,
-              ad mea essent possim iriure.
+              Desenvolvo seu site e sistema de forma rápida e efeciente, e
+              garanto que a entrega final estára alinhado com suas espectativas.
             </p>
           </div>
         </div>
@@ -49,8 +49,9 @@ export default function index() {
           <div className="card-body">
             <h1>UI/UX Design</h1>
             <p>
-              Lisque persius interesset his et, in quot quidam persequeris vim,
-              ad mea essent possim iriure.
+              Foco em tornar a experiência do usuário o mais simples e eficiente
+              possível, além de tornar mais fácil a conclusão de qualquer tarefa
+              que o usuário precisar.
             </p>
           </div>
         </div>
@@ -61,10 +62,10 @@ export default function index() {
             </div>
           </div>
           <div className="card-body">
-            <h1>Virtual store</h1>
+            <h1>Loja Virtual</h1>
             <p>
-              Lisque persius interesset his et, in quot quidam persequeris vim,
-              ad mea essent possim iriure.
+              Crio sua loja virtual com todas as preferências e conveniências
+              oferecidas por qualquer outra loja virtual no mercado.
             </p>
           </div>
         </div>
