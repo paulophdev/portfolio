@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 import Contacts from "../../../contacts";
+import { AiOutlineUp } from "react-icons/ai";
 const date = new Date();
 
 export default function index() {
@@ -12,6 +13,9 @@ export default function index() {
         </a>
         .
       </p>
+      <a href="#home" className="backHome" title="Voltar ao Topo">
+        <AiOutlineUp size={25} />
+      </a>
     </Container>
   );
 }
