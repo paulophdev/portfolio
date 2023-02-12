@@ -42,7 +42,7 @@ export const Content = styled.div`
     font-size: 1.1em;
   }
 
-  button {
+  a {
     color: ${(props) => props.theme.colors.textPrimary};
     background: ${(props) => props.theme.colors.textSecondary};
     border: 2px solid ${(props) => props.theme.colors.textSecondary};

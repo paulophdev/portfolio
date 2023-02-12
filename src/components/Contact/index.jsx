@@ -16,6 +16,7 @@ import Contacts from "../../../contacts";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import CV from "../../assets/docs/CV.pdf";
 
 export default function index() {
   const notify = () =>
@@ -77,15 +78,17 @@ export default function index() {
             </div>
           </Card>
         </a>
-        <Card>
-          <div>
-            <AiOutlineCloudDownload />
-          </div>
-          <div>Download CV</div>
-          <div>
-            <AiOutlineDownload />
-          </div>
-        </Card>
+        <a href={CV} download>
+          <Card>
+            <div>
+              <AiOutlineCloudDownload />
+            </div>
+            <div>Download CV</div>
+            <div>
+              <AiOutlineDownload />
+            </div>
+          </Card>
+        </a>
         <CopyToClipboard text={Contacts.email}>
           <Card title="Clique para copiar!" onClick={() => notify()}>
             <div>

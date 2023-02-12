@@ -9,6 +9,7 @@ import {
   TitleSkill,
 } from "./styles";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import CV from "../../assets/docs/CV.pdf";
 
 const skills = [
   {
@@ -99,7 +100,7 @@ export default function index() {
           );
         })}
       </ContentSkils>
-      <ButtonCV>
+      <ButtonCV href={CV} download>
         Download CV{" "}
         <AiOutlineCloudDownload size={20} style={{ marginLeft: "5px" }} />
       </ButtonCV>

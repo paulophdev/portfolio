@@ -2,6 +2,7 @@ import { Title } from "../../assets/styles/app";
 import { Container, Content, ContentBody } from "./styles";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import Contacts from "../../../contacts";
+import CV from "../../assets/docs/CV.pdf";
 
 export default function index() {
   // it should return an age
@@ -57,10 +58,10 @@ export default function index() {
             {calculateAge(new Date(Contacts.dateBirth))}
           </div>
           <div>
-            <button>
+            <a href={CV} download>
               Download CV{" "}
               <AiOutlineCloudDownload size={20} style={{ marginLeft: "5px" }} />
-            </button>
+            </a>
           </div>
         </div>
       </Content>

@@ -83,7 +83,7 @@ export const CardSkils = styled.div`
   }
 `;
 
-export const ButtonCV = styled.button`
+export const ButtonCV = styled.a`
   color: ${(props) => props.theme.colors.textPrimary};
   background: ${(props) => props.theme.colors.textSecondary};
   border: 2px solid ${(props) => props.theme.colors.textSecondary};
