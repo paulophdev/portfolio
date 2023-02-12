@@ -4,6 +4,7 @@ import About from "./components/About";
 import Service from "./components/Service";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import { Container, Content } from "./assets/styles/app";
 
@@ -18,6 +19,7 @@ function App() {
         <Service />
         <Experience />
         <Contact />
+        <Footer />
       </Content>
     </Container>
   );
