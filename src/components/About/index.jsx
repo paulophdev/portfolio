@@ -36,8 +36,8 @@ export default function index() {
             Olá, eu sou <span>{Contacts.simplifiedName}</span>, um desenvolvedor web apaixonado pelo meu trabalho.
           </p>
           <p>
-          Com mais de cinco anos de experiência, tenho participado do desenvolvimento de diversos sites e sistemas, tanto individualmente quanto em equipe. Durante grande parte da minha trajetória como programador, trabalhei em uma empresa especializada no desenvolvimento de sistemas sob demanda. Essa experiência me proporcionou um amplo conhecimento em diferentes áreas de negócio, incluindo cashback, nuvem, gestão financeira, delivery e muito mais.<br />
-          Além disso, assumi o papel de líder da equipe de desenvolvimento no meu atual emprego. Nessa nova fase, tenho o privilégio de guiar uma equipe talentosa na busca pela excelência e no alcance de resultados significativos.
+          Com mais de cinco anos de experiência, participei do desenvolvimento de diversos sites e sistemas, tanto individualmente quanto em equipe. Trabalhei em uma empresa especializada em sistemas sob demanda, adquirindo amplo conhecimento em áreas como cashback, nuvem, gestão financeira, delivery e muito mais.<br />
+          Atualmente, atuo como líder da equipe de desenvolvimento, onde tenho o privilégio de guiar uma equipe talentosa rumo à excelência e a resultados significativos.
           </p>
         </div>
         <div className="secondContent">
