@@ -102,8 +102,8 @@ export default function index() {
             </div>
           </Card>
         </a>
-        <CopyToClipboard text={Contacts.phone}>
-          <Card title="Clique para copiar!" onClick={() => notify()}>
+        <a href={`tel:${Contacts.phone}`}>
+          <Card title={Contacts.phone}>
             <div>
               <AiOutlineWhatsApp />
             </div>
@@ -112,7 +112,7 @@ export default function index() {
               <AiOutlineCopy />
             </div>
           </Card>
-        </CopyToClipboard>
+        </a>
       </Content>
     </Container>
   );
