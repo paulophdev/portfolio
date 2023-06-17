@@ -33,17 +33,11 @@ export default function index() {
       <Content>
         <div className="firstContent">
           <p className="firstTitle">
-            Eu sou <span>{Contacts.simplifiedName}</span>, um desenvolvedor da
-            web
+            Olá, eu sou <span>{Contacts.simplifiedName}</span>, um desenvolvedor web apaixonado pelo meu trabalho.
           </p>
           <p>
-            Trabalho com Desenvolvimento Web a um pouco mais de quatro anos, já
-            desenvolvi e participei do desenvolvimento de diversos sites e
-            sistemas, sozinho e em equipe. Durante boa parte do meu tempo como
-            programador, trabalhei para uma empresa que desenvolve sistemas sob
-            demanda, isso me permitiu adquirir conhecimento sobre várias áreas
-            diferentes de negócios, cashback, nuvem, gestão financeira, delivery
-            e outros.
+          Com mais de cinco anos de experiência, tenho participado do desenvolvimento de diversos sites e sistemas, tanto individualmente quanto em equipe. Durante grande parte da minha trajetória como programador, trabalhei em uma empresa especializada no desenvolvimento de sistemas sob demanda. Essa experiência me proporcionou um amplo conhecimento em diferentes áreas de negócio, incluindo cashback, nuvem, gestão financeira, delivery e muito mais.<br />
+          Além disso, assumi o papel de líder da equipe de desenvolvimento no meu atual emprego. Nessa nova fase, tenho o privilégio de guiar uma equipe talentosa na busca pela excelência e no alcance de resultados significativos.
           </p>
         </div>
         <div className="secondContent">
