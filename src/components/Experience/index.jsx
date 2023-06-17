@@ -47,6 +47,14 @@ export default function index() {
       </Title>
 
       <Content>
+      <CardExt>
+          <span>03/2023 ~ atualmente</span>
+          <h2>Programador FullStack</h2>
+          <p className="ext-sub">Lince Web Soluções Inteligentes</p>
+          <p>
+            Sou um desenvolvedor líder de uma equipe de talentosos profissionais.
+          </p>
+        </CardExt>
         <CardExt>
           <span>02/2018 ~ 05/2018</span>
           <h2>Curso de Web Developer</h2>
