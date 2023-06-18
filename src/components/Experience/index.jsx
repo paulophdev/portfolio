@@ -13,6 +13,14 @@ import CV from "../../assets/docs/CV.pdf";
 
 const skills = [
   {
+    name: "Vue.js",
+    percentage: "75",
+  },
+  {
+    name: "Laravel",
+    percentage: "80",
+  },
+  {
     name: "Web Design",
     percentage: "65",
   },
