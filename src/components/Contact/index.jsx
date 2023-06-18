@@ -102,7 +102,7 @@ export default function index() {
             </div>
           </Card>
         </a>
-        <a href={`tel:${Contacts.phone}`}>
+        <a href={`https://wa.me/55${Contacts.phoneClean}`} target="_blank">
           <Card title={Contacts.phone}>
             <div>
               <AiOutlineWhatsApp />
