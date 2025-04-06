@@ -13,45 +13,55 @@ import CV from "../../assets/docs/CV.pdf";
 
 const skills = [
   {
-    name: "Liderança",
-    percentage: "85",
-  },
-  {
     name: "PHP",
-    percentage: "90",
-  },
-  {
-    name: "Vue.js",
-    percentage: "75",
+    percentage: "88",
+    title: "Percentual obtido do Quiz do W3Schools",
   },
   {
     name: "Laravel",
-    percentage: "80",
-  },
-  {
-    name: "Web Design",
-    percentage: "65",
-  },
-  {
-    name: "JavaScript",
-    percentage: "80",
-  },
-  {
-    name: "SQL",
     percentage: "75",
+    title: "Presunção baseada no uso cotidiano"
   },
   {
-    name: "HTML/CSS",
-    percentage: "90",
+    name: "HTML",
+    percentage: "87",
+    title: "Percentual obtido do Quiz do W3Schools",
   },
   {
-    name: "React JS",
-    percentage: "75",
+    name: "CSS",
+    percentage: "84",
+    title: "Percentual obtido do Quiz do W3Schools"
   },
   {
-    name: "Bootstrap",
-    percentage: "95",
+    name: "Javascript",
+    percentage: "92",
+    title: "Percentual obtido do Quiz do W3Schools"
   },
+  {
+    name: "Typescript",
+    percentage: "40",
+    title: "Presunção baseada no uso cotidiano"
+  },
+  {
+    name: "React",
+    percentage: "25",
+    title: "Presunção baseada no uso cotidiano"
+  },
+  {
+    name: "Vue.js",
+    percentage: "80",
+    title: "Presunção baseada no uso cotidiano"
+  },
+  {
+    name: "MySQL",
+    percentage: "80",
+    title: "Presunção baseada no uso cotidiano"
+  },
+  {
+    name: "Oracle Cloud",
+    percentage: "50",
+    title: "Presunção baseada no uso cotidiano"
+  }
 ];
 
 export default function index() {
@@ -64,53 +74,45 @@ export default function index() {
 
       <Content>
       <CardExt>
-          <span>03/2023 ~ atualmente</span>
-          <h2>Programador FullStack</h2>
+          <span>02/2023 ~ Atualmente</span>
+          <h2>Programador Fullstack</h2>
           <p className="ext-sub">Lince Web Soluções Inteligentes</p>
           <p>
-            Sou um desenvolvedor líder de uma equipe de talentosos profissionais.
+            O primeiro ano de empresa me dediquei ao trabalho como Gerente de Projetos e Tech Lead, mas recentemente migrei para o cargo de Engenheiro de Software.
+          </p>
+          <p>
+            <br/><strong>Principais skills:</strong><br/>PHP, Laravel, Vue.js, MySQL, HTML, CSS e JavaScript.
           </p>
         </CardExt>
         <CardExt>
-          <span>02/2018 ~ 05/2018</span>
-          <h2>Curso de Web Developer</h2>
-          <p className="ext-sub">Prof: Deivite Popo (engenheiro de software)</p>
+          <span>01/2021 ~ 01/2023</span>
+          <h2>Freelancer</h2>
+          <p className="ext-sub">Programador Fullstack</p>
           <p>
-            Curso focado em preparar o programador para o mercado de trabalho.
+            Durante esse período, trabalhei como freelancer, desenvolvendo projetos
+            para clientes de diversos segmentos.
+          </p>
+          <p>
+            <br/><strong>Principais skills:</strong><br/>PHP, React, MySQL, AdonisJS, HTML, CSS e JavaScript.
           </p>
         </CardExt>
         <CardExt>
           <span>05/2018 ~ 12/2020</span>
-          <h2>1° Trabalho na área</h2>
-          <p className="ext-sub">Programador Full Stack</p>
-          <p>Desenvolver softwares para atender as demandas dos clientes.</p>
-        </CardExt>
-        <CardExt>
-          <span>01/2021 ~ atualmente</span>
-          <h2>Freelancer</h2>
-          <p className="ext-sub">Programador Full Stack</p>
+          <h2>Primeiro Trabalho como programador</h2>
+          <p className="ext-sub">Programador Fullstack</p>
+          <p>Trabalhei numa software house chamada Agência DP.</p>
           <p>
-            Sempre focado em melhorar minhas habilidades para entregar sempre o
-            melhor para meus clientes.
-          </p>
-        </CardExt>
-        <CardExt>
-          <span>07/2021 ~ atualmente</span>
-          <h2>Faculdade</h2>
-          <p className="ext-sub">Análise e desenvolvimento de sistemas</p>
-          <p>
-            Curso de nível superior para ampliar as minhas capacidades e
-            melhorar meu perfil de desenvolvedor.
+            <br/><strong>Principais skills:</strong><br/>PHP, MySQL, HTML, CSS e JavaScript.
           </p>
         </CardExt>
       </Content>
 
-      <TitleSkill>My Skills</TitleSkill>
+      <TitleSkill>Hard skills</TitleSkill>
       <ContentSkils>
         {skills.map(function (skill, i) {
           return (
-            <CardSkils key={i}>
-              <div className="skillsHead">
+            <CardSkils key={i} title={skill.title}>
+              <div className="skillsHead" title={skill.title}>
                 <div>{skill.name}</div>
                 <div>{skill.percentage}%</div>
               </div>

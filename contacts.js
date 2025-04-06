@@ -5,14 +5,12 @@ export default {
   startYear: "01-05-2018", // Year you started working as a programmer
 
   github: "https://github.com/paulophdev",
-  instagram: "https://www.instagram.com/paulophdev",
-  linkedin: "https://www.linkedin.com/in/paulophdev",
-  facebook: "https://www.facebook.com/profile.php?id=100002457864535",
+  instagram: "https://instagram.com/paulophdev",
+  linkedin: "https://linkedin.com/in/paulophdev",
+  x: "https://x.com/paulophdev",
   phone: "(75) 99241-9101",
   phoneClean: "75992419101",
   email: "paulophdev@gmail.com",
 
-  countSites: 25,
-  countSystems: 11,
-  countCustomers: 20,
+  countProjects: 40
 };

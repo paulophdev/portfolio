@@ -75,7 +75,7 @@ export const ContentBody = styled.div`
   padding-bottom: 40px;
 
   div {
-    width: 25%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;

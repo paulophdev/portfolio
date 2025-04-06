@@ -47,7 +47,7 @@ export default function index() {
             className="menu-item"
             onClick={(e) => setActive(e.target)}
           >
-            O que Faço
+            Diferenciais
           </a>
         </div>
         <div>

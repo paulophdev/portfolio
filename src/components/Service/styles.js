@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   padding: 60px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 
   div.card {

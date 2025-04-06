@@ -21,7 +21,7 @@ export default function index() {
     <Container id="home">
       <h3>Bem Vindo(a)</h3>
       <h1>{text}</h1>
-      <p>Desenvolvedor de Sites e Sistemas da Web</p>
+      <p>Desenvolvedor Fullstack Sênior</p>
       <a href="#contact">Fale Comigo</a>
     </Container>
   );

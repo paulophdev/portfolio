@@ -1,71 +1,66 @@
 import { Title } from "../../assets/styles/app";
 import { Container, Content } from "./styles";
 
-import { BsBarChartLine, BsDisplay, BsBrush, BsCart3 } from "react-icons/bs";
+import { BsChatDots, BsLightbulb, BsFolderCheck, BsPuzzle } from "react-icons/bs";
 
 export default function index() {
   return (
     <Container id="service">
       <Title>
-        <h1>Serviços</h1>
-        <p>O que eu faço?</p>
+        <h1>Diferenciais</h1>
+        <p>Soft skills</p>
       </Title>
 
       <Content>
         <div className="card">
           <div className="card-icon">
             <div>
-              <BsBarChartLine size={25} />
+              <BsChatDots size={25} />
             </div>
           </div>
           <div className="card-body">
-            <h1>Relatórios</h1>
+            <h1>Comunicação</h1>
             <p>
-              Entrego relatórios como DRE, Planilha de Resultados e Movimento de
-              Caixa, de acordo com as informações de sua empresa.
+              Trabalho muito bem em equipe, sei me expressar com clareza e estou sempre pronto para contribuir com ideias que realmente agregam valor ao projeto.
             </p>
           </div>
         </div>
         <div className="card">
           <div className="card-icon">
             <div>
-              <BsDisplay size={25} />
+              <BsLightbulb size={25} />
             </div>
           </div>
           <div className="card-body">
-            <h1>Web Design</h1>
+            <h1>Aprendizado contínuo</h1>
             <p>
-              Desenvolvo seu site e sistema de forma rápida e efeciente, e
-              garanto que a entrega final estára alinhado com suas espectativas.
+              Sou movido por desafios e adoro aprender coisas novas. Atualmente, estou me aprofundando em Inteligência Artificial.
             </p>
           </div>
         </div>
         <div className="card">
           <div className="card-icon">
             <div>
-              <BsBrush size={25} />
+              <BsFolderCheck size={25} />
             </div>
           </div>
           <div className="card-body">
-            <h1>UI/UX Design</h1>
+            <h1>Organização</h1>
             <p>
-              Foco em tornar a experiência do usuário o mais simples e eficiente
-              possível, além de tornar mais fácil a conclusão de qualquer tarefa
-              que o usuário precisar.
+              Tenho um perfil altamente organizado. Documentar processos, manter padrões e estruturar entregas com clareza fazem parte da minha rotina.
             </p>
           </div>
         </div>
         <div className="card">
           <div className="card-icon">
             <div>
-              <BsCart3 size={25} />
+              <BsPuzzle size={25} />
             </div>
           </div>
           <div className="card-body">
-            <h1>Loja Virtual</h1>
+            <h1>Pensamento crítico</h1>
             <p>
-              Crio sua loja virtual com todas as preferências e conveniências
-              oferecidas por qualquer outra loja virtual no mercado.
+              Analiso cenários com autonomia, questiono se necessário e proponho soluções com base no que realmente faz sentido para o projeto.
             </p>
           </div>
         </div>

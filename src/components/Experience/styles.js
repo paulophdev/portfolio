@@ -20,6 +20,7 @@ export const CardExt = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  border-radius: 8px;
 
   span {
     background: ${(props) => props.theme.colors.textSecondary};

@@ -3,7 +3,6 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
-  AiFillFacebook,
 } from "react-icons/ai";
 import Contacts from "../../../contacts";
 
@@ -18,9 +17,6 @@ export default function index() {
       </a>
       <a href={Contacts.linkedin} title="Linkedin" target="_blank">
         <AiFillLinkedin />
-      </a>
-      <a href={Contacts.facebook} title="Facebook" target="_blank">
-        <AiFillFacebook />
       </a>
     </Container>
   );
